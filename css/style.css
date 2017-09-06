@@ -123,3 +123,9 @@ p {
   color: white;
   font-size: 1.2rem;
 }
+
+@media (max-width: 900px) {
+  #wallpaper1, #wallpaper2 {
+    background-position: 90% 50%;
+  }
+}
