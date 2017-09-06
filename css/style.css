@@ -102,6 +102,7 @@ a, a:hover, a:focus  {
 
 .video-block iframe {
   display: inline-block;
+  max-width: 100%;
 }
 
 hr {
