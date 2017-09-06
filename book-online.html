@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Selene Beauty - Hair Straightening</title> <!-- nazwa zakładki-->
+    <meta charset="utf-8">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> <!--zasoby, np.bootstrap-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="logo-block">
+      <a href="index.html" id="logo-text">Selene Beauty</a>
+    </div>
+
+    <div class="container">
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="hair.html">Hair Straightening</a>
+          </li>
+          <li>
+            <a href="eyelash.html">Eyelash Extension</a>
+          </li>
+          <li>
+            <a href="book-online.html" class="active">Book Online</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container">
+      <hr>
+      <h1>Book Online</h1>
+      <br><br>
+      
+      <form method="post">
+        <div class="clearfix row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Name" class="input-lg form-control full-width">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" name="lastName" placeholder="Last name" class="input-lg form-control full-width">
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="form-group">
+              <input type="text" name="phone" placeholder="Phone number" class="input-lg form-control full-width">
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="form-group">
+              <div class="input-group date" data-provide="datepicker">
+                <input type="text" name="date" placeholder="Date" class="input-lg form-control">
+                <div class="input-group-addon">
+                  <span class="glyphicon glyphicon-th"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="form-group">
+              <input type="submit" value="Book" class="btn btn-danger btn-lg">
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <hr>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+
+  </body>
+
+</html>
